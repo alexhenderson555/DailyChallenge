@@ -15,3 +15,5 @@ captures/
 
 # JVM heap dumps (never commit; GitHub 100 MB limit)
 *.hprof
+hs_err_pid*.log
+replay_pid*.log
