@@ -1,0 +1,17 @@
+# Gradle / Android
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+*.class
+
+# JVM heap dumps (never commit; GitHub 100 MB limit)
+*.hprof

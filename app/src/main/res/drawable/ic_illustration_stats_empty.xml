@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Минималистичный график в стиле приложения: три столбика по возрастанию -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M4,20 L6,20 L6,14 L4,14 Z" />
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M10,20 L12,20 L12,10 L10,10 Z" />
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M16,20 L18,20 L18,6 L16,6 Z" />
+</vector>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFF8F5</color>
+    <color name="background_light">#FFF8F5</color>
+    <color name="primary">#E85D04</color>
+    <!-- Widget: light theme -->
+    <color name="widget_bg_light">#FFF8F5</color>
+    <color name="widget_text_primary_light">#1A1A1A</color>
+    <color name="widget_text_secondary_light">#6B6B6B</color>
+    <!-- Widget: dark theme -->
+    <color name="widget_bg_dark">#1A1A1A</color>
+    <color name="widget_text_primary_dark">#E6E3DE</color>
+    <color name="widget_text_secondary_dark">#8E8A84</color>
+    <!-- Widget: AMOLED -->
+    <color name="widget_bg_amoled">#000000</color>
+    <color name="widget_text_primary_amoled">#E0E0E0</color>
+    <color name="widget_text_secondary_amoled">#6B6B6B</color>
+</resources>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Daily Challenge</string>
+    <!-- Replace with your Play Games Services APP ID from Play Console (numeric). -->
+    <string name="games_app_id" translatable="false">0</string>
+    <string name="channel_daily_name">Daily goal</string>
+    <string name="notification_daily_title">Your goal for today</string>
+    <string name="notification_daily_text">Open the app and mark completion</string>
+    <string name="notification_action_done">Done</string>
+    <string name="notification_action_skip">Not done</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_calendar">Calendar</string>
+    <string name="tab_stats">Statistics</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Home -->
+    <string name="home_choose_categories">Choose goal categories in settings</string>
+    <string name="home_done">Done</string>
+    <string name="home_not_done">Not done</string>
+    <string name="home_completed">Completed ✓</string>
+    <string name="home_not_completed">Not completed</string>
+    <string name="home_other_goal">Other goal</string>
+    <string name="home_other_goal_remaining">Other goal (%d left this week)</string>
+    <string name="home_choose_from_4">Choose from 4 (1 per day)</string>
+    <string name="home_choose_goal_title">Choose a goal</string>
+    <string name="home_used_today">Used today</string>
+    <string name="home_use_freeze">Use freeze (%d left)</string>
+    <string name="home_freeze_confirm">Use a freeze to keep your streak? One freeze will be used.</string>
+    <string name="home_frozen">Frozen (streak saved)</string>
+    <string name="home_no_more_goals_today">No more goals for today. Come back tomorrow!</string>
+    <string name="home_limit_premium">Limit. Tap for Premium</string>
+    <string name="home_loading">Loading goal…</string>
+    <string name="home_marked_done">Marked as done</string>
+    <string name="home_marked_not_done">Marked as not done</string>
+    <string name="home_undo">Undo</string>
+    <string name="home_add_note">Add a note?</string>
+    <string name="home_note_hint">How did it go?</string>
+    <string name="home_note_save">Save</string>
+    <string name="home_note_skip">Skip</string>
+    <string name="calendar_note">Note: %s</string>
+    <string name="home_today">Today</string>
+
+    <!-- Widget -->
+    <string name="widget_title">Today\'s goal</string>
+    <string name="widget_streak">🔥 %d</string>
+    <string name="widget_goal_placeholder">Open the app to see your goal</string>
+    <string name="home_goal_date">Goal for %1$s</string>
+    <plurals name="home_streak_days">
+        <item quantity="one">%d day in a row</item>
+        <item quantity="other">%d days in a row</item>
+    </plurals>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">My Daily Challenge</string>
+    <string name="onboarding_desc">One small goal every day. Mark it done, build a streak, and track your progress. Simple and motivating.</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_reminder_title">When to show the goal?</string>
+    <string name="onboarding_reminder_desc">You\'ll get a reminder at this time every day.</string>
+    <string name="onboarding_categories_title">Choose 1–2 goal categories</string>
+    <string name="onboarding_categories_desc">Goals will be picked from these categories.</string>
+    <string name="onboarding_categories_footer">You can change categories, theme and language in Settings.</string>
+    <string name="onboarding_start">Start</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_step">Step %1$d of %2$d</string>
+
+    <!-- Calendar -->
+    <string name="calendar_week">Week</string>
+    <string name="calendar_month">Month</string>
+    <string name="calendar_month_premium">Month (Premium)</string>
+    <string name="calendar_no_record">No record for this day</string>
+    <string name="calendar_completed">Completed ✓</string>
+    <string name="calendar_not_completed">Not completed</string>
+    <string name="calendar_frozen">Frozen</string>
+    <string name="calendar_category">Category: %s</string>
+    <string name="calendar_weekday_mon">Mon</string>
+    <string name="calendar_weekday_tue">Tue</string>
+    <string name="calendar_weekday_wed">Wed</string>
+    <string name="calendar_weekday_thu">Thu</string>
+    <string name="calendar_weekday_fri">Fri</string>
+    <string name="calendar_weekday_sat">Sat</string>
+    <string name="calendar_weekday_sun">Sun</string>
+    <string name="a11y_prev_month">Previous month</string>
+    <string name="a11y_next_month">Next month</string>
+    <string name="a11y_delete">Delete</string>
+    <string name="a11y_mark_done">Mark done</string>
+    <string name="a11y_mark_not_done">Mark not done</string>
+    <string name="a11y_refresh">Refresh</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Statistics</string>
+    <string name="stats_empty">Complete your first goal — stats will appear here</string>
+    <string name="stats_current_streak">Current streak</string>
+    <string name="stats_days">days</string>
+    <string name="stats_best_streak">Best streak</string>
+    <string name="stats_this_month">This month</string>
+    <string name="stats_of">%1$d of %2$d</string>
+    <string name="stats_this_week">This week</string>
+    <string name="stats_achievements">Achievements</string>
+    <string name="stats_streak_7">7 days in a row</string>
+    <string name="stats_streak_30">30 days in a row</string>
+    <string name="stats_goals_10">10 goals completed</string>
+    <string name="stats_goals_25">25 goals completed</string>
+    <string name="stats_goals_50">50 goals completed</string>
+    <string name="stats_goals_100">100 goals completed</string>
+    <string name="stats_goals_200">200 goals completed</string>
+    <string name="stats_goals_500">500 goals completed</string>
+    <string name="stats_category_goals">%1$s: %2$d goals</string>
+    <string name="achievement_unlocked">Achievement unlocked!</string>
+    <string name="stats_unlocked">✓ Unlocked</string>
+    <string name="stats_progress">%1$d / %2$d</string>
+    <string name="stats_by_categories">By category</string>
+    <string name="stats_by_weekday">By weekday</string>
+    <string name="stats_weekly_progress">Weekly progress</string>
+    <string name="stats_year_pixels">Year at a glance</string>
+    <string name="stats_year_legend_done">Done</string>
+    <string name="stats_year_legend_rest">Rest</string>
+    <string name="stats_achievements_by_category">Category goals</string>
+    <string name="stats_share">Share</string>
+    <string name="stats_total">Total</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_reminder_at">Reminder at %1$s</string>
+    <string name="settings_premium_active">Premium active</string>
+    <string name="settings_go_premium">Get Premium</string>
+    <string name="settings_second_reminder">Second reminder: %1$s</string>
+    <string name="settings_second_reminder_off">Second reminder (off)</string>
+    <string name="settings_weekdays_only">Remind on weekdays only</string>
+    <string name="settings_theme">Theme: %s</string>
+    <string name="settings_theme_dialog_title">Theme</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_amoled">AMOLED</string>
+    <string name="settings_theme_spring">Spring</string>
+    <string name="settings_theme_summer">Summer</string>
+    <string name="settings_theme_autumn">Autumn</string>
+    <string name="settings_theme_winter">Winter</string>
+    <string name="settings_sound">Sound on mark</string>
+    <string name="settings_vibration">Vibration on mark</string>
+    <string name="settings_sound_test">Test sound</string>
+    <string name="settings_categories">Goal categories</string>
+    <string name="settings_tap_for_premium">(tap for Premium)</string>
+    <string name="settings_custom_goals">Custom goals</string>
+    <string name="settings_custom_goals_add">Add custom goal</string>
+    <string name="settings_custom_goal_dialog_title">New goal</string>
+    <string name="settings_custom_goal_category">Category</string>
+    <string name="settings_custom_goal_text">Goal text</string>
+    <string name="settings_custom_goal_add_btn">Add</string>
+    <string name="settings_cloud">Google Play</string>
+    <string name="settings_sign_in_play">Sign in with Google Play</string>
+    <string name="settings_sign_out">Sign out</string>
+    <string name="settings_save_to_cloud">Save progress to cloud</string>
+    <string name="settings_load_from_cloud">Load progress from cloud</string>
+    <string name="settings_cloud_saved">Progress saved</string>
+    <string name="settings_cloud_loaded">Progress loaded</string>
+    <string name="settings_cloud_error">Error: %s</string>
+    <string name="settings_cloud_signing_in">Signing in…</string>
+    <string name="settings_widget_hint">Widget: long-press home screen → Widgets → \"My Daily Challenge\".</string>
+    <string name="settings_version">Version %s</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_system">System</string>
+    <string name="settings_language_russian">Русский</string>
+    <string name="settings_language_english">English</string>
+
+    <!-- Time picker -->
+    <string name="time_title">Reminder time</string>
+    <string name="time_hours">Hours: %d</string>
+    <string name="time_minutes">Minutes: %d</string>
+    <string name="time_done">Done</string>
+    <string name="time_second_title">Second reminder</string>
+    <string name="time_second_enable">Enable</string>
+
+    <!-- Premium -->
+    <string name="premium_title">Premium</string>
+    <string name="premium_you_have">You have Premium</string>
+    <string name="premium_benefit_1">All goal categories</string>
+    <string name="premium_benefit_2">Custom goals</string>
+    <string name="premium_benefit_3">Replace any goal by choosing from 4 options (1 per day)</string>
+    <string name="premium_benefit_4">Second reminder</string>
+    <string name="premium_benefit_5">Calendar month view</string>
+    <string name="premium_benefit_6">Streak freeze</string>
+    <string name="premium_benefit_7">Up to 3 uncompleted goals; completion counts for the day it was assigned</string>
+    <string name="premium_benefit_8">Choose which goal categories to see</string>
+    <string name="premium_get">Get Premium</string>
+    <string name="premium_test_note">For testing: tap enables Premium without payment.</string>
+    <string name="premium_thanks">Thanks for your support!</string>
+    <string name="premium_close">Close</string>
+    <string name="premium_promo_hint">Promo code</string>
+    <string name="premium_promo_activate">Activate</string>
+    <string name="premium_promo_invalid">Invalid or already used code</string>
+    <string name="premium_promo_success">Premium activated!</string>
+
+    <!-- Categories -->
+    <string name="category_health">Health</string>
+    <string name="category_productivity">Productivity</string>
+    <string name="category_relationships">Relationships</string>
+    <string name="category_creativity">Creativity</string>
+    <string name="category_order">Order</string>
+    <string name="category_finance">Finance</string>
+    <string name="category_learning">Learning</string>
+    <string name="category_sport">Sport</string>
+    <string name="category_mindfulness">Mindfulness</string>
+    <string name="category_cooking">Cooking</string>
+    <string name="category_nature">Nature</string>
+
+    <!-- Difficulty -->
+    <string name="settings_difficulty">Difficulty</string>
+    <string name="settings_difficulty_any">Any</string>
+    <string name="settings_difficulty_easy">Easy</string>
+    <string name="settings_difficulty_medium">Medium</string>
+    <string name="settings_difficulty_hard">Hard</string>
+
+    <!-- About -->
+    <string name="settings_about">About</string>
+    <string name="settings_policy">Privacy policy</string>
+    <string name="settings_contacts">Contact us</string>
+    <string name="settings_policy_url">https://example.com/privacy</string>
+    <string name="settings_contacts_url">mailto:support@example.com</string>
+    <string name="settings_restore_purchases">Restore purchases</string>
+    <string name="settings_export_data">Export data</string>
+    <string name="settings_export_json">Export as JSON</string>
+    <string name="settings_export_csv">Export as CSV</string>
+    <string name="settings_cloud_load_confirm">This will replace all your local data with data from the cloud. Continue?</string>
+    <string name="settings_confirm">Confirm</string>
+    <string name="settings_cancel">Cancel</string>
+    <string name="calendar_future">Goal will be assigned on this day</string>
+    <string name="settings_edit_goal">Edit goal</string>
+    <string name="settings_edit">Edit</string>
+    <string name="settings_save">Save</string>
+    <string name="calendar_edit_note">Edit note</string>
+
+    <!-- Extended challenges -->
+    <string name="home_weekly_challenge">Weekly challenge</string>
+    <string name="home_monthly_challenge">Monthly challenge</string>
+
+    <!-- Common -->
+    <string name="close">Close</string>
+</resources>
